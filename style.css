@@ -1,0 +1,119 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+header {
+    background-color: rgb(219, 215, 215);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 10px  180px;
+}
+.logo {
+    text-decoration: none;
+    color: rgb(75, 75, 181);
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 1.7em;
+}
+.navigation1 a {
+    color: rgb(101, 101, 174);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.2em; 
+    padding-left: 30px;  
+}
+.navigation1 a:hover {
+    color: rgb(87, 87, 96);
+    font-size: 1.7em;
+    transition: 0.7s ease;
+
+}
+
+section {
+    width: 100%;
+    padding: 100px 150px;
+}
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background: url(images/I4WORLDthemeIcon1.png) no-repeat ;
+    background-size: cover;
+    background-position: center;
+}
+.main h2 {
+    color: rgb(255, 255, 255);
+    font-size: 2.5em;
+    font-weight: 500;
+}
+.title0 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    
+}
+.title1 {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    color: rgb(3, 3, 3);
+    font-weight: 1000;
+    font-size: 3.9em;
+    margin-bottom: 10px; 
+
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.content div {
+    border-radius: 10px;
+    margin: 6px;
+    padding: 15px;
+    background-color: antiquewhite;
+}
+.alls {
+    background: url(images/istockphoto-1141191007-612x612.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+
+
+}
+.card{
+    box-shadow: 0px 0px 20px rgb(133, 130, 130);
+    transition: 0.7s ease;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+
+.alls2{
+    background: url(images/2017-12-12-patient-care.png);
+    background-size: cover;
+
+}
+.alls3 {
+    background: url(images/what-is-healthy-food--3616981_2022_dx_content_kh_whatishealthyfood_hro_mbl_640x364.webp);
+    background-size: cover;
+}
+.footerr {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}

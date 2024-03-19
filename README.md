@@ -13,7 +13,7 @@ LinkedIn: https://www.linkedin.com/in/mohamed-chokri/
 
 Installation
 To install SportiveVitality locally, follow these steps:
-Clone the repository: git clone https://github.com/hakra9/SportiveVitality.git
+Clone the repository: git clone https://github.com/hakra9/portfolio
 Navigate to the project directory: cd SportiveVitality
 Install dependencies: npm install
 

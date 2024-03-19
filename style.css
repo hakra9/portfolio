@@ -38,6 +38,8 @@ header {
     color: rgb(87, 87, 96);
     font-size: 1.7em;
     transition: 0.7s ease;
+    cursor: pointer;
+
 
 }
 
@@ -112,8 +114,9 @@ section {
     background: url(images/what-is-healthy-food--3616981_2022_dx_content_kh_whatishealthyfood_hro_mbl_640x364.webp);
     background-size: cover;
 }
-.footerr {
-    width: 100%;
-    height: 50px;
-    background-color: black;
+.container {
+background-color: rgb(232, 229, 226);    
+opacity: 0.8;
+
 }
+    

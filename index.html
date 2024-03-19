@@ -14,7 +14,7 @@
             <a href="#sport">sport</a>
             <a href="#health">health</a>
             <a href="#food">food </a>
-            <a href="login.html">calculator</a>
+            <a id="next">calculator</a>
 
         </nav>
     </header>
@@ -48,17 +48,64 @@
     </section>
     <section class="alls3" id="food">
         <h2 class="title1">food</h2>
-        <div class="content">
-        <div class="card">
-            Nutrition plays a crucial role in supporting overall health and athletic performance. Fueling your body with a balanced diet rich in nutrient-dense foods is essential for providing the energy and nutrients needed for exercise, recovery, and optimal functioning. Emphasize whole foods such as fruits, vegetables, lean proteins, whole grains, and healthy fats to ensure a well-rounded diet that meets your nutritional needs. Prioritize complex carbohydrates for sustained energy, lean proteins for muscle repair and growth, and healthy fats for supporting brain function and hormone production. Hydration is also key for maintaining optimal performance, so be sure to drink plenty of water throughout the day, especially before, during, and after exercise. Avoid excessive consumption of processed foods, sugary snacks, and high-fat meals, which can lead to energy crashes and impair athletic performance. By nourishing your body with nutrient-rich foods, you can support your health, enhance your athletic performance, and feel your best both on and off the field.
-        </div>
-        </div>
-    </section>
-
-    </section>
-    <footer class="footerr">
+        <div class="container">
+        <h3>Nutritional value of 100g</h3>
         
-    </footer>
+        
+
+        <select id="foodSelect" onchange="showNutritionalInfo()" >
+            <option value="" disabled selected>Select a food item</option>
+            <option value="avocado">Avocado</option>
+            <option value="banana">Banana</option>
+            <option value="chicken_breast">Grilled Chicken Breast</option>
+            <option value="oatmeal">Oatmeal</option>
+            <option value="salmon">Salmon</option>
+            <option value="beef">Beef</option>
+            <option value="egg">Egg</option>
+            <option value="milk">Milk</option>
+            <option value="tuna">Tuna</option>
+            <option value="nuts">Nuts</option>
+            <option value="lentils">Lentils</option>
+            <option value="cheese">Cheese</option>
+            <option value="serdin">Serdin</option>
+            <option value="lamb">Lamb</option>
+            <option value="honey">Honey</option>
+            <option value="butter">Butter</option>
+            <option value="rice">Rice</option>
+            <option value="coupled">Coupled</option>
+            <!-- Add more food options here -->
+          </select>
+
+          <div id="nutritionalInfo">
+            <p id="foodName"></p>
+            <p id="calories"></p>
+            <p id="protein"></p>
+            <p id="carbohydrates"></p>
+            <p id="fat"></p>
+          </div>
+        </div>
+
+        <div class="container" id="container2">
+            <h3>Select Sport:</h3>
+            <select id="sportSelect1" onchange="showCalorieBurnRate()">
+                    <option value="" disabled selected>Select a sport</option>
+                    <option value="running">Running</option>
+                    <option value="cycling">Cycling</option>
+                    <option value="swimming">Swimming</option>
+                    <option value="gym">Gym</option>
+                    <option value="karate">Karate</option>
+                    <option value="boxing">Boxing</option>
+                    <option value="physique">Physique Training</option>
+                    <option value="calisthenics">Calisthenics</option>
+                    <!-- Add more sports here -->
+                </select>
+                <p id="calorieBurnRate"></p>
+
+        </div>
+    
+        
+        </section>
+    </section>
    <script src="script.js">
     </script>
 </body>
